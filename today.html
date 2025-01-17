@@ -1,0 +1,252 @@
+
+<style>
+  .nike-para{
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.8s;}
+    .nike-para:hover{
+      color: orange;
+      transition: 0.7s;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);}
+  .price-para{
+    font-size: 18px;
+    font-weight: bold;
+    color:orange;}
+  .add-button{
+    background-color: black;
+    color: orange;
+    height: 36px;
+    width: 120px;
+    border: none;
+    border-radius: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.7s;
+    font-weight: bold;}
+    .add-button:hover{
+      background-color: orange;
+      color: black;
+      box-shadow: 10px 10px 10px rgba(0, 0,0,0.4 );
+      transition: 0.7s;}
+      .add-button:active{
+        opacity: 0.7;
+        box-shadow: none;
+        transition: 0.7s;}
+  .buy-button{
+    background-color: orange;
+    color: black;
+    border-radius: 18px;
+    border: none;
+    height: 36px;
+    width: 120px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.7s}  
+    .buy-button:hover{
+      background-color: black;
+      color: orange;
+      transition: 0.7s;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);}   
+      .buy-button:active{
+        opacity: 0.7;
+        transition: 0.7s;
+        box-shadow: none;} 
+  .a-para{
+    color: orange;
+    font-weight: bold;
+    transition: 0.7s;}
+    .a-para:hover{
+      color: black;
+      transition: 0.7s;}
+.request-button{
+  background-color: black;
+  color: white;
+  width: 110px;
+  height: 36px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.7s;
+  margin-left: 10px;}
+  .request-button:hover{
+    opacity: 0.7;
+    transition: 0.7s; }
+.add-buttons{
+  background-color: yellow;
+  color: black;
+  width: 160px;
+  height: 36px;
+  border-radius: 18px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: 0.7s;}   
+  .add-buttons:hover{
+  background-color: rgb(195, 195, 14);
+  transition: 0.7s;}
+  .add-buttons:active{
+  background-color: rgb(166, 166, 15);
+  transition: 0.7s;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);}
+.sign-button{
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  height: 36px;
+  width: 90px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  transition: 0.7s;
+  margin-left: 10px;
+  font-size: 15px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0);}
+  .sign-button:hover{
+  opacity: 0.7;
+  transition: 0.7s;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);}
+  .sign-button:active{
+  opacity: 0.4;
+  transition: 0.7s;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0);}
+.get-button{
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  width: 100px;
+  height: 36px;
+  margin: 10px;
+  transition: 0.7s;}
+  .get-button:hover{
+    background-color: rgb(86, 28, 141);
+    transition: 0.7s;}
+  .get-button:active{
+    background-color: rgb(73, 38, 105);
+    transition: 0.7s;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);}
+.download-button{
+    background-color: white;
+    color: gray;
+    width: 100px;
+    height: 36px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-color: gray;
+    border-style: double;
+    border-radius: 6px;
+    transition: 0.7s;
+    font-weight: bold;}
+    .download-button:hover{
+      color: white;
+      background-color: gray;
+      transition: 0.7s;
+      box-shadow: 2px 2px 10px rgba(0, 0,0,0.4 ); }
+    .download-button:active{
+      opacity: 0.7;
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+      transition: 0.7s;}
+.apply-button{
+  background-color: rgb(66, 66, 251);
+  color: white;
+  height: 36px;
+  width: 220px;
+  font-weight: bold;
+  border: none;
+  border-radius: 18px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.7s;}
+  .apply-button:hover{
+    background-color: rgb(5, 5, 231);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    transition: 0.7s;}
+    .apply-button:active{
+      opacity: 0.7;
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+      transition: 0.7s;}
+.save-button{
+  background-color: white;
+  color: rgb(51, 51, 249);
+  border-radius: 18px;
+  cursor: pointer;
+  height: 36px;
+  transition: 0.7s;
+  margin-left: 1px;
+  width: 70px;
+  font-weight: bold;
+  border-color: rgb(51, 51, 249);
+  font-size: medium;
+  margin-right: 200px;}
+  .save-button:hover{
+    background-color: rgb(210, 220, 254);
+    transition: 0.7s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);}
+    .save-button:active{
+      opacity: 0.7;
+      transition: 0.7s;
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);} 
+.back-para:hover{
+  color: brown;}    
+.black-para{
+  font-size: 30px;
+  font-weight: bold;
+  color: black;}
+.prix-para{
+  color: green;
+  font-weight: bold;}
+.to-button{
+  background-color: rgb(255, 238, 0);
+  color: black;
+  width: 110px;
+  height: 36px;
+  cursor: pointer;
+  border: none;
+  border-radius: 18px;
+  transition: 0.7s;
+  margin-right: 10px;}
+  .to-button:hover{
+    background-color: rgba(221, 206, 2, 0.978);
+    transition: 0.7s;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);}
+    .to-button:active{
+      opacity: 0.7;
+      transition: 0.4s;}
+.now-button{
+  background-color: orange;
+  color: black;
+  width: 110px;
+  height: 36px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: 0.7s;}   
+  .now-button:hover{
+   background-color: rgb(205, 136, 9);
+   transition: 0.7s;
+   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);  }   
+   .now-button:active{
+    opacity: 0.7;
+    transition: 0.7s;}
+</style>
+<a href="amazon.com" target="_blank" class="a-para">Amazon</a>
+<p class="nike-para">Nike Black Running Shoes</p>
+<p class="price-para">$39 - in stock.</p>
+<p>Free delivery tomorrow.</p>
+<button class="add-button">
+  Add to Cart
+</button><button class="buy-button">Buy now</button>
+<button class="request-button">Request now</button>
+<button class="add-buttons">Add to Cart</button>
+<button class="sign-button">Sign up</button>
+<button class="get-button">Get started</button>
+<Button class="download-button">Download</Button>
+<button class="apply-button">Apply on company website</button>
+<button class="save-button">Save</button>
+<a href="amazon.com" target="_blank" class="back-para">Back to Amazon</a>
+<p class="black-para">Nike Black Running Shoes</p>
+<p class="prix-para">$39 - in stock.</p>
+<P class="delivery-para">Free delivery tomorrow.</P>
+<button class="to-button"> Add to Cart</button><button class="now-button">Buy now</button>
