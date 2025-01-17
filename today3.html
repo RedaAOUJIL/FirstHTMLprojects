@@ -1,96 +1,107 @@
-<style>
-  .back-para{
-    color: black;
-    font-weight: bold;
-    font-style: italic; 
-    transition: 0.7s;}
-    .back-para:hover{
-      color: orange;
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Shop Abou</title>
+    <style>
+      body{background-image: url('yellow.jpeg');}
+    .back-para{
+      color: black;
+      font-weight: bold;
+      font-style: italic; 
       transition: 0.7s;}
-  .nike-para{
-    color: black;
-    font-weight: bold;
-    font-size: 30px;
-    cursor: pointer;
-    transition: 0.7s;
-    box-shadow: 3px 3px 5px rgba(0, 0,0, 0.2);; 
-    padding-left: 140px;
-    padding-top: 20px;} 
-    .nike-para:hover{
-      color: orange;
+      .back-para:hover{
+        color: orange;
+        transition: 0.7s;}
+    .nike-para{
+      color: black;
+      font-weight: bold;
+      font-size: 30px;
+      cursor: pointer;
       transition: 0.7s;
-      box-shadow: 3px 3px 10px rgba(0, 0,0, 0.4);}
-  .price-para{
-    color: orange;}
-  .add-button{
-    background-color: orange;
-    color: black;
-    font-weight: bold;
-    border: none;
-    border-radius: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    transition: 0.7s;
-    box-shadow: 3px 3px 5px rgba(0, 0,0, 0.2);
-    margin-right: 10px;
-    cursor: pointer;}
-    .add-button:hover{
+      box-shadow: 3px 3px 5px rgba(0, 0,0, 0.2);; 
+      padding-left: 140px;
+      padding-top: 20px;} 
+      .nike-para:hover{
+        color: orange;
+        transition: 0.7s;
+        box-shadow: 3px 3px 10px rgba(0, 0,0, 0.4);}
+    .price-para{
+      color: black;}
+    .add-button{
+      background-color: orange;
+      color: black;
+      font-weight: bold;
+      border: none;
+      border-radius: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      transition: 0.7s;
+      box-shadow: 3px 3px 5px rgba(0, 0,0, 0.2);
+      margin-right: 10px;
+      cursor: pointer;}
+      .add-button:hover{
+        background-color: black;
+        color: orange;
+        transition: 0.7s;
+        box-shadow: 3px 3px 10px rgba(0, 0,0, 0,4) ; }
+        .add-button:active{
+          opacity: 0.7;
+          transition: 0.7s;
+          box-shadow: 3px 5px 15px rgba(0, 0,0, 0.7) ;}
+    .buy-button{
       background-color: black;
       color: orange;
       transition: 0.7s;
-      box-shadow: 3px 3px 10px rgba(0, 0,0, 0,4) ; }
-      .add-button:active{
-        opacity: 0.7;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border: none;
+      border-radius: 20px;
+      box-shadow: 3px 3px 5px rgba(0, 0,0, 0.2);
+      font-weight: bold;}
+      .buy-button:hover{
+        background-color: orange;
+        color: black;
         transition: 0.7s;
-        box-shadow: 3px 5px 15px rgba(0, 0,0, 0.7) ;}
-  .buy-button{
-    background-color: black;
-    color: orange;
-    transition: 0.7s;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: none;
-    border-radius: 20px;
-    box-shadow: 3px 3px 5px rgba(0, 0,0, 0.2);
-    font-weight: bold;}
-    .buy-button:hover{
-      background-color: orange;
+        box-shadow:3px 5px 10px rgba(0, 0,0, 0.4); }
+        .buy-button:active{
+          opacity: 0.7;
+          box-shadow:5px 5px 15px rgba(0, 0,0, 0.6 );
+          transition: 0.7s;}
+    .shop-para{
       color: black;
+      font-weight: bold;
+      font-size: 50px;
+      font-style: italic;
+      padding-left:200px;
+      box-shadow:3px 3px 10px rgba(0, 0,0, 0.7) ;
       transition: 0.7s;
-      box-shadow:3px 5px 10px rgba(0, 0,0, 0.4); }
-      .buy-button:active{
-        opacity: 0.7;
-        box-shadow:5px 5px 15px rgba(0, 0,0, 0.6 );
+      cursor: pointer;}
+    .shop-para:hover{
+      color:orange;
+      transition: 0.7s;
+      box-shadow: 3px 5px 15px rgba(0, 0,0, 0.9);}
+      .shoes-para{
+        color: black;
         transition: 0.7s;}
-  .shop-para{
-    color: black;
-    font-weight: bold;
-    font-size: 50px;
-    font-style: italic;
-    padding-left:200px;
-    box-shadow:3px 3px 10px rgba(0, 0,0, 0.7) ;
-    transition: 0.7s;
-    cursor: pointer;
-  }
-  .shop-para:hover{
-    color:orange;
-    transition: 0.7s;
-    box-shadow: 3px 5px 15px rgba(0, 0,0, 0.9);}
-    .shoes-para{
-      color: black;
-      transition: 0.7s;}
-      .shoes-para:hover{
-        color: orange;
-        transition: 0.7s;
-      }
-</style>
-<a href="amazon.com" target="_blank" class="back-para"> Back to Amazon</a>
-<p class="nike-para">Nike Black Running <a href="shoes.com" target="_blank" class="shoes-para">shoes</a></p>
-<P class="price-para">$39 - in stock.</P>
-<P>Free delivery tomorrow.</P>
-<button class="add-button"> Add to Cart</button><button class="buy-button">Buy now</button>
-<p class="shop-para">Shop Abou</p>
+        .shoes-para:hover{
+          color: orange;
+          transition: 0.7s;
+        }
+        .first-para{
+          color:black; }
+    </style>
+</head>
+  <body>
+    <a href="amazon.com" target="_blank" class="back-para"> Back to Amazon</a>
+    <p class="nike-para">Nike Black Running <a href="shoes.com" target="_blank" class="shoes-para">shoes</a></p>
+    <P class="price-para">$39 - in stock.</P>
+    <P>Free delivery tomorrow.</P>
+    <button class="add-button"> Add to Cart</button><button class="buy-button">Buy now</button>
+    <p class="shop-para">Shop Abou</p>
+    <h1 class="first-para"> welcome to my fitness page! </h1>
+  </body>
+</html>
