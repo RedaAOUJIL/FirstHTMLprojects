@@ -32,6 +32,35 @@
                     cursor: pointer;}
       .button-container{display: flex;
                         gap: 0px;}
+      .facebook-contener{display: inline-block;
+                        margin-top: 300px;
+                        width: 100px;
+                        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+                        height: 200px;
+                        margin-left: 40px;}
+      .facebook-profil{ width: 100px;}
+      .profile-friends{ color: gray;
+                        font-size: 13px;
+                        line-height: 1px;
+                        font-family: Arial, Helvetica, sans-serif;}
+      .profile-name{    font-family: Arial, Helvetica, sans-serif;
+                        font-weight: bold;
+                        margin-top: 1px;
+                        margin-bottom: 0px;}
+      .add-friend{      background-color: rgb(58, 58, 255);
+                        color: white;
+                        font-family: Arial, Helvetica, sans-serif;
+                        cursor: pointer;
+                        border-radius: 2px;
+                        border: none;
+                        height: 25px;
+                        transition: 0.7s;}
+      .add-friend:hover{background-color: white;
+                        color:  rgb(58, 58, 255);
+                        transition: 0.7s;}
+      .add-friend:active{opacity: 0.7;
+                        transition: 0.7s;}
+
       </style>
   </head>
   <body>
@@ -42,6 +71,13 @@
     </div>
     <div class="button-container">
       <button class="google-button"> Google Search</button> <button class="Google-button">I'm Feeling Lucky</button>
+    
     </div>
+    <div class="facebook-contener"> 
+      <img class="facebook-profil"  src="thumbnails/Cat03.jpg">
+      <p class="profile-name"> Mimi</p>
+      <p class="profile-friends"> 1 mutuad friend</p>
+      <button class="add-friend"> Add Friend</button>
+    </div> 
   </body>
 </html>
