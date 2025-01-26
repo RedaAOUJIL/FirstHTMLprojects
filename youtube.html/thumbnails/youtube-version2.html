@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>
-      YouTbue.com
+      Youtube.com
     </title>
     <style>
       .search-bar-div{display: block;
@@ -13,45 +13,105 @@
                       font-family: Arial, Helvetica, sans-serif;
                       padding-left: 10px;
                       font-size: 16px;}
+
+
       .firstvideo-div{display: inline-block;
-                      width: 300px;}
-      .firstvideo-menitor{width: 300px;
-                          }
+                      width: 300px;
+                      height: 300px;}
+      .firstvideo-menitor{width: 300px;}
       .firstchannel-menitor{width: 40px;
                             border-radius: 35px;
-                            display: inline-block;}
+                            display: inline-block;
+                            margin-top: 10px;}
       .firstvideo-title{    width: 250px;
                             font-family: Arial, Helvetica, sans-serif;
                             font-size: 14px;
                             font-weight: bold;
-                            line-height: 23px;}
+                            line-height: 23px;
+                            margin: 0px;
+                            margin-top: 10px;
+                            padding-left: 10px;
+                            margin-bottom: 10px;}
       .firstchannel-name{   font-size: 13px;
                             font-family: Arial, Helvetica, sans-serif;
-                            color: rgb(95, 95, 95);}
+                            color: rgb(95, 95, 95);
+                            margin: 0;
+                            padding-left: 10px;}
       .firstvideo-info{     color: rgb(95, 95, 95);
                             font-family: Arial, Helvetica, sans-serif;
-                            font-size: 13px;}
+                            font-size: 13px;
+                            margin-top: 4px;
+                            padding-left: 10px;}
       .firstchannel-menitor-div{display: inline-block;
-                                width: 40px;}
-      .firstvideo-info-div{     display: inline-block;
-                                width: 250px;}
+                                width: 40px;
+                                vertical-align: top;}
+      .firstvideo-discribtion-div{display: inline-block;
+                                  width: 250px;}
+      .firstvideo-title-div{      width: 250px;}
+      
+
+      .secondvideo-div{      display: inline-block;
+                            width: 300px;
+                            height: 300px;
+                            vertical-align: top;}
+      .secondvideo-menitor{  width: 300px;}
+      .secondchannel-menitor{width: 40px;
+                            border-radius: 30px;
+                            margin-top: 10px;}
+      .secondvideo-title{   font-family: Arial, Helvetica, sans-serif;
+                            font-family: 14px;
+                            font-weight: bold;
+                            width: 240px;
+                            padding-left: 10px;}
+      .secondchannel-name{  color: rgb(95, 95, 95);
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-size: 13px;
+                            margin: 0;
+                            padding-left: 10px;}
+      .secondvideo-info{    font-size: 13px;
+                            font-family: Arial, Helvetica, sans-serif;
+                            color: rgb(95, 95, 95);
+                            margin-top: 6px;
+                            padding-left: 10px;}
+      .secondchannel-menitor-div{   display: inline-block;
+                                    width: 40px;
+                                    vertical-align: top;}
+      .secondvideo-discription-div{ display: inline-block;
+                                    width: 250px;}
+      .secondvideo-title-div{}
+      .secondchannel-name-div{margin: 0;}
+     
+                                  
     </style>
   </head>
   <body>
-    <div  class="search-bar-div">
-      <input class="search-bar" type="text" placeholder="Search">
-    </div>
-    <div class="firstvideo-div">
-      <div><img class="firstvideo-menitor" src="thumbnails/thumbnail-1.webp"></div>
-      <div>
-        <div class="firstchannel-menitor-div"><img class="firstchannel-menitor" src="thumbnails/channel-1.jpeg"></div>
-        <div class="firstvideo-info-div">
-          <p   class="firstvideo-title"> Talking Tech and AI with Google Ceo Sundar Pichai!</p>
-          <p   class="firstchannel-name" > Marques Brownlee</p>
-          <p   class="firstvideo-info"> 3.4M views &#183; 6 months ago</p>
+  
+      <div  class="search-bar-div">
+        <input class="search-bar" type="text" placeholder="Search">
+      </div>
+      <div class="firstvideo-div">
+        <div><img class="firstvideo-menitor" src="thumbnails/thumbnail-1.webp"></div>
+        <div>
+          <div class="firstchannel-menitor-div"><img class="firstchannel-menitor" src="thumbnails/channel-1.jpeg"></div>
+          <div class="firstvideo-discribtion-div">
+            <div class="firstvideo-title-div"><p   class="firstvideo-title"> Talking Tech and AI with Google Ceo Sundar Pichai!</p></div>
+            <div class="firstchannel-name-div"> <p   class="firstchannel-name" > Marques Brownlee</p></div>
+            <div class="firstvideo-info-div"><p   class="firstvideo-info"> 3.4M views &#183; 6 months ago</p></div>
+            </div>
         </div>
       </div>
-       </div>
+
+    <div class="secondvideo-div">
+      <div><img class="secondvideo-menitor" src="thumbnails/thumbnail-2.webp"></div>
+      <div>
+        <div class="secondchannel-menitor-div"><img class="secondchannel-menitor"  src="thumbnails/channel-2.jpeg"></div>
+        <div class="secondvideo-discription-div">
+          <div class="secondvideo-title-div"><p   class="secondvideo-title">Try Not To Laugh Challenge &#35;9</p></div>
+          <div class="secondchannel-name-div"><p   class="secondchannel-name">Markiplier</p></div>
+          <div class="secondvideo-info-div"><p   class="secondvideo-info">19M views &#183; 4 years ago</p></div>
+        </div>
+      </div>
+    </div>
     
   </body>
 </html>
