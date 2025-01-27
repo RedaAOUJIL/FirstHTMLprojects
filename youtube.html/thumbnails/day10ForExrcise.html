@@ -11,15 +11,33 @@
                     border-radius: 40px;}
       .profile1-name{font-family: Arial, Helvetica, sans-serif;
                     font-weight: bold;}
+      .profile1-gender{font-family: Arial, Helvetica, sans-serif;
+                      color: rgb(95,95,95);}
+      .profile1-statu{font-family: Arial, Helvetica, sans-serif;
+                      color: rgb(95,95,95);}
+      .follow-button{ background-color: rgb(0, 110, 255);
+                      color: white;
+                      font-weight: bold;
+                      border: none;}
+      .profile1-container{display: inline-block;}
+      .profile1-img-div{  display: inline-block;}
+      .profile1-container-info{display: inline-block;}
+      .profile1-button{        display: inline-block;}
     </style>
   </head>
   <body>
+    
     <div class="profile1-container">
-      <img class="profile1-img" src="thumbnails/cat.jpg">
-      <p class="profile1-name">Oliver</p>
-      <p class="profile1-gender">the cat</p>
-      <p class="profile1-statu">Popular</p>
-      <button class="follow-button">Follow</button>
+      <div class="profile1-img-div"><img class="profile1-img" src="thumbnails/cat.jpg"></div>
+      <div  class="profile1-container-info">
+        <p class="profile1-name">Oliver</p>
+        <p class="profile1-gender">the cat</p>
+        <p class="profile1-statu">Popular</p>
+      </div>
+      <div class="profile1-button"><button class="follow-button">Follow</button></div>
+      
+      
+      
     </div>
   </body>
 </html>
