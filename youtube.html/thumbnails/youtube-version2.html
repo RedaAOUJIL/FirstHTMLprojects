@@ -5,19 +5,19 @@
       Youtube.com
     </title>
     <style>
-      .search-bar-div{display: block;
-                      margin-bottom: 100px;
-                      margin-left: 200px;}
-      .search-bar{    width: 250px;
-                      height: 30px;
-                      font-family: Arial, Helvetica, sans-serif;
-                      padding-left: 10px;
-                      font-size: 16px;}
+      .search-bar-div{    display: block;
+                          margin-bottom: 100px;
+                          margin-left: 200px;}
+      .search-bar{        width: 250px;
+                          height: 30px;
+                          font-family: Arial, Helvetica, sans-serif;
+                          padding-left: 10px;
+                          font-size: 16px;}
 
 
-      .firstvideo-div{display: inline-block;
-                      width: 300px;
-                      height: 300px;}
+      .firstvideo-div{    display: inline-block;
+                          width: 300px;
+                          height: 300px;}
       .firstvideo-menitor{width: 300px;}
       .firstchannel-menitor{width: 40px;
                             border-radius: 35px;
@@ -42,21 +42,18 @@
                             font-size: 13px;
                             margin-top: 4px;
                             padding-left: 10px;}
-      .firstchannel-menitor-div{display: inline-block;
-                                width: 40px;
-                                vertical-align: top;
-                                background-color: gray;}
       .firstvideo-discribtion-div{display: inline-block;
-                                  width: 256px;
-                                  background-color: gray;}
+                                  width: 256px;}
       .firstvideo-title-div{      width: 250px;}
+      .video1-info-grid{          display: grid;
+                                  grid-template-columns: 40px 1fr;}
       
 
-      .secondvideo-div{      display: inline-block;
+      .secondvideo-div{     display: inline-block;
                             width: 300px;
                             height: 300px;
                             vertical-align: top;}
-      .secondvideo-menitor{  width: 300px;}
+      .secondvideo-menitor{ width: 300px;}
       .secondchannel-menitor{width: 40px;
                             border-radius: 30px;
                             margin-top: 10px;}
@@ -80,8 +77,9 @@
                                     vertical-align: top;}
       .secondvideo-discription-div{ display: inline-block;
                                     width: 256px;}
-      .secondvideo-title-div{}
-      .secondchannel-name-div{margin: 0;}
+      .secondchannel-name-div{      margin: 0;}
+      .secondvideo-info-grid{       display: grid;
+                                    grid-template-columns: 40px 1fr;}
      
                                   
     </style>
@@ -93,10 +91,9 @@
     </div>
 
 
-    <div 
-      class="firstvideo-div">
-        <div><img class="firstvideo-menitor" src="thumbnails/thumbnail-1.webp"></div>
-        <div>
+    <div class="firstvideo-div" >
+        <div ><img class="firstvideo-menitor" src="thumbnails/thumbnail-1.webp"></div>
+        <div class="video1-info-grid">
           <div class="firstchannel-menitor-div"><img class="firstchannel-menitor" src="thumbnails/channel-1.jpeg"></div>
           <div class="firstvideo-discribtion-div">
             <div class="firstvideo-title-div"><p   class="firstvideo-title"> Talking Tech and AI with Google Ceo Sundar Pichai!</p></div>
@@ -108,7 +105,7 @@
 
     <div class="secondvideo-div">
       <div><img class="secondvideo-menitor" src="thumbnails/thumbnail-2.webp"></div>
-      <div>
+      <div class="secondvideo-info-grid">
         <div class="secondchannel-menitor-div"><img class="secondchannel-menitor"  src="thumbnails/channel-2.jpeg"></div>
         <div class="secondvideo-discription-div">
           <div class="secondvideo-title-div"><p   class="secondvideo-title">Try Not To Laugh Challenge &#35;9</p></div>
