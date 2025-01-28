@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<!-- saved from url=(0054)http://127.0.0.1:5500/thumbnails/youtube-version2.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>
       Youtube.com
     </title>
@@ -87,36 +87,71 @@
     </style>
   </head>
   <body>
-    <div  
-        class="search-bar-div">
+    <div class="search-bar-div">
         <input class="search-bar" type="text" placeholder="Search">
     </div>
 
 
-    <div 
-      class="firstvideo-div">
-        <div><img class="firstvideo-menitor" src="thumbnails/thumbnail-1.webp"></div>
+    <div class="firstvideo-div">
+        <div><img class="firstvideo-menitor" src="./Youtube.com_files/thumbnail-1.webp"></div>
         <div>
-          <div class="firstchannel-menitor-div"><img class="firstchannel-menitor" src="thumbnails/channel-1.jpeg"></div>
+          <div class="firstchannel-menitor-div"><img class="firstchannel-menitor" src="./Youtube.com_files/channel-1.jpeg"></div>
           <div class="firstvideo-discribtion-div">
-            <div class="firstvideo-title-div"><p   class="firstvideo-title"> Talking Tech and AI with Google Ceo Sundar Pichai!</p></div>
-            <div class="firstchannel-name-div"> <p   class="firstchannel-name" > Marques Brownlee</p></div>
-            <div class="firstvideo-info-div"><p   class="firstvideo-info"> 3.4M views &#183; 6 months ago</p></div>
+            <div class="firstvideo-title-div"><p class="firstvideo-title"> Talking Tech and AI with Google Ceo Sundar Pichai!</p></div>
+            <div class="firstchannel-name-div"> <p class="firstchannel-name"> Marques Brownlee</p></div>
+            <div class="firstvideo-info-div"><p class="firstvideo-info"> 3.4M views · 6 months ago</p></div>
             </div>
         </div>
     </div>
 
     <div class="secondvideo-div">
-      <div><img class="secondvideo-menitor" src="thumbnails/thumbnail-2.webp"></div>
-      <div>
-        <div class="secondchannel-menitor-div"><img class="secondchannel-menitor"  src="thumbnails/channel-2.jpeg"></div>
+      <div><img class="secondvideo-menitor" src="./Youtube.com_files/thumbnail-2.webp"></div><div>
+        <div class="secondchannel-menitor-div"><img class="secondchannel-menitor" src="./Youtube.com_files/channel-2.jpeg"></div>
         <div class="secondvideo-discription-div">
-          <div class="secondvideo-title-div"><p   class="secondvideo-title">Try Not To Laugh Challenge &#35;9</p></div>
-          <div class="secondchannel-name-div"><p   class="secondchannel-name">Markiplier</p></div>
-          <div class="secondvideo-info-div"><p   class="secondvideo-info">19M views &#183; 4 years ago</p></div>
+          <div class="secondvideo-title-div"><p class="secondvideo-title">Try Not To Laugh Challenge #9</p></div>
+          <div class="secondchannel-name-div"><p class="secondchannel-name">Markiplier</p></div>
+          <div class="secondvideo-info-div"><p class="secondvideo-info">19M views · 4 years ago</p></div>
         </div>
       </div>
     </div>
     
-  </body>
-</html>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
